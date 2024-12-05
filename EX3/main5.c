@@ -2,8 +2,7 @@
 
 int main()
 {
-    int Time,money;
-    scanf("%d",&Time);
+    int Time=123,money;
     if(Time<=30){
         printf("0元購");
     }
