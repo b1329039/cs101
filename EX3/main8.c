@@ -2,10 +2,9 @@
 
 int main()
 {
-    int H,T,S,sum;
-    scanf("%d\n%d\n%d",&H,&T,&S);
+    int H=-4,T=6,S=8,sum;
     if(H>=10||H==0||T>=10||T<0||S>=10||S<0){
-        printf("傻B");
+        printf("error");
         return 0;
     }
     if(H<=0){
