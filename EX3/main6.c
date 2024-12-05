@@ -2,8 +2,7 @@
 
 int main()
 {
-    int D,money;
-    scanf("%d",&D);
+    int D=1870,money;
     if(D<=1500){
         printf("70元購");
     }
