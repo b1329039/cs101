@@ -2,8 +2,7 @@
 
 int main()
 {
-    int num;
-    scanf("%d",&num);
+    int num=10;
     if(num%2==0){
         printf("2");
     }
